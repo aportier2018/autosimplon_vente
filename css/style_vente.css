@@ -43,13 +43,12 @@ header{
 
 #logobentley
 {
-	height:200px;
-	background-image: url("../img/logo-bentley.png");
+	margin-top:60px;
+
 }
 
-#bentley1
+#aston
 {
+border: 1px solid red;
 
-	height:100px;
-	background-image : url('../img/bentley1.jpg');
 }
