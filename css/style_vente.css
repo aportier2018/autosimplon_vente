@@ -1,0 +1,49 @@
+@import url(reset.css);
+
+@font-face {
+	font-family: "Gillsanslight";
+	src: url('GillSans-Light.otf');
+}
+
+/* HEADER NAV */
+header{
+	 height:350px;
+	 width: 100%;
+	 background-image: url("headnav.png");
+	 background-repeat: no-repeat;
+	 max-width: 100%;
+}
+
+.topnav {
+	 list-style-type: none;
+	 margin: 0;
+	 padding: 0;
+	 overflow: hidden;
+	 background-color: rgba(0, 0, 0, 0.5);
+	 display: flex;
+	 justify-content: center;
+	 margin-top: -58px;
+	 font-family: 'Montserrat', sans-serif;
+}
+
+.topnav a {
+	 display: block;
+	 color: rgb(255,215,0);
+	 text-align: center;
+	 padding: 21px 16px;
+	 text-decoration: none;
+}
+
+.topnav a:hover {
+	 background-color: rgba(255, 255, 255, 0.2);
+	 color: rgb(255,215,0);
+
+}
+
+/*FIN HEADER NAV */
+
+main
+{
+	background-image: url("img/logo-bentley");
+	background-color: green;
+}
