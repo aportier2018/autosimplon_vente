@@ -45,24 +45,28 @@ main
 {
 	font-family:"Gillsanslight";
 }
-.row
+
+.marque
 {
-	margin-top:60px;
-	margin-bottom: 60px;
 
 }
 
-#aston
-{
+.descriptif{
+	width:100%;
+	margin:60px 0;
 }
 
-#logobentley{
-
-	border : 1px solid green;
+.texte{
+	width:45%;
+	text-align: justify;
+	font-size: 20px;
+ 	padding-top: 70px; 
 }
 
-#aston
-{
-border: 1px solid red;
+.logoastonmartin {
+	margin-top: 150px;
+}
 
+.logoastonmartin img{
+	margin:auto;
 }
