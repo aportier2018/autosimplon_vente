@@ -13,24 +13,114 @@
 </head>
 
 <body>
-  <div class="col-lg-12 text-center">
-  <h1>Bienvenue dans Notre ShowRoom</h1>
-  </div>
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-lg-12 text-center titre">
+        <h1>Bienvenue dans Notre ShowRoom</h1>
+          <nav class="navbar navbar">
+           <div class="container-fluid">
+           <ul class="nav navbar-nav">
+
+             <li class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Aston Martin<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li>
+                    <a class="dropdown-item" href="#DB11">DB11</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#N430">N430</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                 <a class="btn btn-secondary dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bentley<span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                     <li>
+                       <a href="#exp12">EXP 12 speed 6e </a>
+                     </li>
+                     <li>
+                       <a href="#cs">Continental Supersports</a>
+                     </li>
+                   </ul>
+                </li>
+
+                <li class="dropdown">
+                   <a class="btn btn-secondary dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Jaguar<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                       <li>
+                         <a href="#jx50">Jaguar XJ50</a>
+                       </li>
+                       <li>
+                         <a href="#ipace">Jaguar I-Pace</a>
+                       </li>
+                     </ul>
+                  </li>
+
+                  <li class="dropdown">
+                     <a class="btn btn-secondary dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Porsche<span class="caret"></span>
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                         <li>
+                           <a href="#911">911 Carrera 4S</a>
+                         </li>
+                         <li>
+                           <a href="#peh">Panamera E-hybrid</a>
+                         </li>
+                       </ul>
+                    </li>
+
+                    <li class="dropdown">
+                       <a class="btn btn-secondary dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rolls-Royce<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                           <li>
+                             <a href="#Phantom">Rolls-Royce Phantom</a>
+                           </li>
+                           <li>
+                             <a href="#dawn">Rolls-Royce Dawn</a>
+                           </li>
+                         </ul>
+                      </li>
+
+                      <li class="dropdown">
+                         <a class="btn btn-secondary dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tesla<span class="caret"></span>
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                             <li>
+                               <a href="#p100s">P100S</a>
+                             </li>
+                             <li>
+                               <a href="#roadster">Roadster</a>
+                             </li>
+                          </ul>
+                        </li>
+                </ul>
+           </div>
+        </nav>
+      </div>
+    </div>
+
   <main>
 
-    <div class="container-fluid">
+
 
       <div class="row marque">
         <a href="https://global.astonmartin.com/">
-          <div class="col-lg-2 logoastonmartin">
+          <div class="col-lg-2 logoastonmartin" id="aston">
             <img src="img_vente/logoastonmartin.png"  alt="logo Aston Martin"/>
           </div>
         </a>
         <div class="col-lg-10">
           <div class="row descriptif">
             <a href="http://paris.astonmartindealers.com/fr-fr/home/models/db11/">
-              <div class="col-lg-6 voiture">
-                <img  src="img_vente/aston_martin1.jpg" class="img-thumbnail img-rounded" alt="Aston-Martin">DB11
+              <div class="col-lg-6 voiture" id="DB11">
+                <img  src="img_vente/aston_martin1.jpg"  class="img-thumbnail img-rounded" alt="Aston-Martin">DB11
               </div>
             </a>
             <div class="col-lg-4 texte ">« Porte-étendard spectaculaire d'une nouvelle génération de voitures, la DB11 est la plus puissante et la plus efficace DB de série de toute l'histoire d'Aston Martin.»
@@ -39,7 +129,7 @@
 
           <div class="row descriptif">
             <a href="http://www.luxury-design.com/moteurs/voitures-luxe/aston-martin-n430">
-              <div class="col-lg-6 voiture">Aston Martin N430
+              <div class="col-lg-6 voiture" id="N430">Aston Martin N430
                 <img src="img_vente/aston_martin2.jpg" class="img-thumbnail" alt="Aston Martin"/>
               </div>
             </a>
@@ -51,7 +141,7 @@
 
       <div class="row marque">
         <a href="https://www.bentleymotors.com">
-          <div class="col-lg-2 logobentley">
+          <div class="col-lg-2 logobentley" id="bentley">
             <img src="img_vente/logobentley.png"  alt="logobentley" />
           </div>
         </a>
@@ -59,7 +149,7 @@
         <div class="col-lg-10">
           <div class="row descriptif">
             <a href="https://www.bentleymotors.com/en/models/concept-cars/exp12-speed-6e.html">
-              <div class="col-lg-6 voiture">
+              <div class="col-lg-6 voiture" id="exp12">
                 <img src="img_vente/bentley1.jpg" class="img-thumbnail" alt="Bentley" />
                 EXP 12 Speed 6e
               </div>
@@ -70,7 +160,7 @@
 
           <div class="row descriptif">
             <a href="https://www.bentleymotors.com/en/models/continental/continental-supersports-convertible.html">
-              <div class="col-lg-6 voiture">Continental Supersports
+              <div class="col-lg-6 voiture" id="cs">Continental Supersports
                 <img src="img_vente/bentley2.jpg" class="img-thumbnail" alt="Bentley" />
               </div>
             </a>
@@ -82,7 +172,7 @@
 
       <div class="row marque">
         <a href="https://www.jaguar.fr/index.html?gclid=EAIaIQobChMI9bWwjsjD2wIV2fhRCh33JggtEAAYASAAEgIYb_D_BwE">
-          <div class="col-lg-2 logojaguar">
+          <div class="col-lg-2 logojaguar" id="jaguar">
             <img src="img_vente/logojaguar.png" class="img-rounded" alt="logo Jaguar"/>
           </div>
         </a>
@@ -90,7 +180,7 @@
         <div class="col-lg-10">
           <div class="row descriptif">
             <a href="https://www.jaguar.fr/jaguar-range/xj/index.html">
-              <div class="col-lg-6 voiture">
+              <div class="col-lg-6 voiture" id="jx50">
                 <img src="img_vente/jaguar1.jpg" class="img-thumbnail" alt="Jaguar">Jaguar XJ50
               </div>
             </a>
@@ -100,7 +190,7 @@
 
           <div class="row descriptif">
             <a href="https://www.jaguar.fr/jaguar-range/xj/index.html">
-              <div class="col-lg-6 voiture">Jaguar I-pace
+              <div class="col-lg-6 voiture" id="ipace">Jaguar I-pace
                 <img src="img_vente/jaguar2.jpg" class="img-thumbnail" alt="Jaguar"/>
               </div>
             </a>
@@ -112,7 +202,7 @@
 
       <div class="row marque">
         <a href="https://www.porsche.com/">
-          <div class="col-lg-2 logoporsche">
+          <div class="col-lg-2 logoporsche" id="porsche">
             <img src="img_vente/logoporsche.jpg" class="img-rounded" alt="logo Porsche"/>
           </div>
         </a>
@@ -120,7 +210,7 @@
           <div class="col-lg-10">
             <div class="row descriptif">
               <a href="https://www.porsche.com/france/models/911/911-carrera-models/">
-                <div class="col-lg-6 voiture">
+                <div class="col-lg-6 voiture" id="911">
                   <img src="img_vente/porsche1.jpg" class="img-thumbnail" alt="Porsche">911 Carrera 4S Cabriolet
                 </div>
               </a>
@@ -130,7 +220,7 @@
 
             <div class="row descriptif">
               <a href="https://www.porsche.com/france/models/panamera/panamera-e-hybrid-models/">
-                <div class="col-lg-6 voiture">Panamera E-Hybrid
+                <div class="col-lg-6 voiture" id="peh">Panamera E-Hybrid
                   <img src="img_vente/porsche2.jpg" class="img-thumbnail" alt="Porsche"/>
                 </div>
               </a>
@@ -143,7 +233,7 @@
 
       <div class="row marque">
         <a href="https://www.rolls-roycemotorcars.com/">
-          <div class="col-lg-2 logorollroys">
+          <div class="col-lg-2 logorollroys" id="rr">
             <img src="img_vente/logorr.jpeg"  alt="logo rollroys" />
           </div>
         </a>
@@ -151,7 +241,7 @@
         <div class="col-lg-10">
           <div class="row descriptif">
             <a href="https://www.rolls-roycemotorcars.com/en-GB/configure-your-rolls-royce.html">
-              <div class="col-lg-6 voiture">
+              <div class="col-lg-6 voiture" id="phantom">
                 <img src="img_vente/rr1.jpg" class="img-thumbnail" alt="Rollroys" />Rolls-Royce Phantom
               </div>
             </a>
@@ -161,7 +251,7 @@
 
           <div class="row descriptif">
             <a href="https://www.rolls-roycemotorcars.com/en-GB/configure-your-rolls-royce.html">
-              <div class="col-lg-6 voiture">Rolls Royce Dawn
+              <div class="col-lg-6 voiture" id="dawn">Rolls Royce Dawn
                 <img src="img_vente/rr2.jpg" class="img-thumbnail" alt="Rollroys" />
               </div>
             </a>
@@ -173,7 +263,7 @@
 
       <div class="row marque">
         <a href="https://www.tesla.com">
-          <div class="col-lg-2 logotesla">
+          <div class="col-lg-2 logotesla" id="tesla">
             <img src="img_vente/logotesla.jpeg" class="img-rounded" alt="logo Tesla"/>
         </div>
         </a>
@@ -181,7 +271,7 @@
         <div class="col-lg-10">
           <div class="row descriptif">
             <a href="https://www.tesla.com/en_NZ/models">
-              <div class="col-lg-6 voiture">
+              <div class="col-lg-6 voiture" id="p100">
                 <img  src="img_vente/tesla1.jpeg" class="img-thumbnail" alt="Tesla"/>P100D La Tesla ultime
               </div>
             </a>
@@ -190,7 +280,7 @@
           </div>
 
           <div class="row descriptif">
-            <a href="https://www.tesla.com/roadster"><div class="col-lg-6 voiture">Tesla Roadster
+            <a href="https://www.tesla.com/roadster"><div class="col-lg-6 voiture" id="roadster">Tesla Roadster
               <img src="img_vente/tesla2.jpeg" class="img-thumbnail" alt="Tesla"/>
             </div>
             </a>
