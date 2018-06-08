@@ -13,7 +13,9 @@
 </head>
 
 <body>
-
+  <div class="col-lg-12 text-center">
+  <h1>Bienvenue dans Notre ShowRoom</h1>
+  </div>
   <main>
 
     <div class="container-fluid">

@@ -9,11 +9,23 @@
 main
 {
 	font-family:"Gillsanslight";
+
 }
 
-.marque
-{
+h1{
+	font-size: 60px;
+	font-style: italic;
+	color: rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+	height: 150px;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 55px 0px;
+}
 
+.marque{
+	background: linear-gradient(to bottom right, ,#F6FFF1);
+	box-shadow: 0 0 5px 0 #EBE4E4;
 }
 
 .voiture{
@@ -22,6 +34,14 @@ main
 	font-size: 25px;
 	text-align: center;
 	font-weight: bold;
+
+	border-radius: 5px;
+	cursor: none;
+}
+
+.voiture:hover{
+	opacity: 0.9;
+	box-shadow:0 0 20px 0 rgba(0,0,0,0.75);
 }
 
 .texte{
